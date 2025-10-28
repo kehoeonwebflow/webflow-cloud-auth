@@ -9,7 +9,7 @@ email: string;
 };
 
 export async function POST(request: NextRequest) {
-const db = getDb();
+const db = getDb(process.env as any);
 const { name, age, email }: UserInput = await request.json();
 try {
     const newUser = await db
@@ -23,7 +23,7 @@ try {
 }
 
 export async function GET(request: NextRequest) {
-    const db = getDb();
+    const db = getDb(process.env as any);
     try {
       const users = await db.select().from(usersTable);
       return NextResponse.json(users, { status: 200 });
