@@ -8,7 +8,16 @@
     "binding": "ASSETS",
     "directory": ".open-next/assets"
   },
+  "d1_databases": [
+  {
+    "binding": "DB", // A valid JavaScript variable name
+    "database_name": "db",
+    "database_id": "1234", // Webflow Cloud will generate this for you once you deploy your app
+    "migrations_dir": "drizzle" // We'll create this directory later
+  }
+],
   "observability": {
     "enabled": true
   }
+  
 }
