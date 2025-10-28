@@ -1,0 +1,17 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="32" height="32" rx="6" fill="#3B82F6"/>
+  <g transform="translate(6, 8)">
+    <!-- Dog head -->
+    <ellipse cx="10" cy="8" rx="7" ry="6" fill="#FFFFFF"/>
+    <!-- Dog ears -->
+    <ellipse cx="5" cy="4" rx="2" ry="3" fill="#F59E0B"/>
+    <ellipse cx="15" cy="4" rx="2" ry="3" fill="#F59E0B"/>
+    <!-- Dog eyes -->
+    <circle cx="8" cy="7" r="1" fill="#1F2937"/>
+    <circle cx="12" cy="7" r="1" fill="#1F2937"/>
+    <!-- Dog nose -->
+    <ellipse cx="10" cy="9" rx="0.8" ry="0.6" fill="#1F2937"/>
+    <!-- Dog mouth -->
+    <path d="M10 10.5 Q8.5 12 7 11 Q8.5 12.5 10 11 Q11.5 12.5 13 11 Q11.5 12 10 10.5" fill="#1F2937"/>
+  </g>
+</svg>
